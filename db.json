@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "content": "",
+      "flag": false,
+      "array": [],
+      "object": {}
+    },
+    {
+      "id": 2,
+      "content": "double quote: \", backslash: \\, forward slash \/, unicode one half: \u00BD, newline: \n",
+      "flag": true,
+      "array": [ "element 1", "element 2" ],
+      "object": {
+        "key1": "value 1",
+        "key2": "value 2"
+      }
+    },
+    {
+      "id": 3,
+      "content": null,
+      "flag": false,
+      "array": null,
+      "object": null
+    }
+  ]
+}
