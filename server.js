@@ -1,5 +1,4 @@
 var args = process.argv.slice(2);
-console.log('args: ', args);
 
 const dbJsData = module.require('./db.js');
 const dbJsonData = './db.json';
