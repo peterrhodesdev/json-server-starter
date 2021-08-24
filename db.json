@@ -2,14 +2,16 @@
   "data": [
     {
       "id": 1,
-      "content": "",
+      "number": -123,
+      "string": "",
       "flag": false,
       "array": [],
       "object": {}
     },
     {
       "id": 2,
-      "content": "double quote: \", backslash: \\, forward slash \/, unicode one half: \u00BD, newline: \n",
+      "number": 1.23,
+      "string": "double quote: \", backslash: \\, unicode (one half): \u00BD, newline: \n",
       "flag": true,
       "array": [ "element 1", "element 2" ],
       "object": {
@@ -19,8 +21,9 @@
     },
     {
       "id": 3,
-      "content": null,
-      "flag": false,
+      "number": 1.2E+3,
+      "string": null,
+      "flag": null,
       "array": null,
       "object": null
     }
